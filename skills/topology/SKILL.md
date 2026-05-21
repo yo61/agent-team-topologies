@@ -1,6 +1,18 @@
+---
+name: topology
+description: >
+  Helps select the right Claude Code agent team topology for a task. Use when
+  planning multi-agent work, deciding how to decompose a task across parallel
+  Claude Code instances, or choosing between the eight patterns: Parallel
+  Explorers, Review Board, Competing Hypotheses, Feature Pod, Risky Refactor,
+  Orchestrator-Only, Quality-Gated, and Task Queue. Trigger on phrases like
+  "what topology", "how should we structure this", "parallel agents", "spawn
+  agents", or "agent team".
+---
+
 # Topology Chooser
 
-This skill helps you select the right agent team topology for your task. When invoked with `/topology`, walk the user through a diagnostic questionnaire and recommend one of the 8 topology patterns.
+This skill helps you select the right agent team topology for your task. Walk the user through a diagnostic questionnaire and recommend one of the 8 topology patterns.
 
 ## Instructions
 

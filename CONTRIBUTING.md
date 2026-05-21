@@ -39,7 +39,7 @@ Why so strict? Hypothetical examples teach the wrong lessons. Real walkthroughs 
 
 ## Improving agent definitions or hooks
 
-Agent definitions live in `.claude/agents/` and hooks in `.claude/hooks/`. To contribute changes:
+Agent definitions live in `agents/` (top-level, for plugin discovery) and hook script templates in `.claude/hooks/`. To contribute changes:
 
 1. **Test locally first.** Run Claude Code with your modified agent or hook and verify the behavior end to end.
 2. **Include before/after comparison.** Your PR should describe how the agent or hook behaved before your change and how it behaves after.

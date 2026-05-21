@@ -1,0 +1,12 @@
+{
+  "name": "agent-team-topologies",
+  "version": "1.0.0",
+  "description": "Reusable Claude Code agent team topology patterns. Includes the topology selector skill (interactive decision tree across 8 patterns) plus 6 specialist subagents (explorer, architect, implementer, security-reviewer, perf-reviewer, test-reviewer).",
+  "author": {
+    "name": "Robin Bowes",
+    "email": "robin@yo61.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/yo61/agent-team-topologies",
+  "repository": "https://github.com/yo61/agent-team-topologies"
+}

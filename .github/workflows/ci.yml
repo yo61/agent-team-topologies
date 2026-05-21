@@ -1,0 +1,46 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions: {}
+
+jobs:
+  commitlint:
+    name: Conventional Commits
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: read
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: wagoid/commitlint-github-action@b948419dd99f3fd78a6548d48f94e3df7f6bf3ed  # v6.2.1
+        with:
+          configFile: commitlint.config.mjs
+
+  validate-plugin-json:
+    name: plugin.json validation
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          persist-credentials: false
+      - name: Validate plugin.json shape
+        run: |
+          set -euo pipefail
+          jq -e '
+            (.name | type) == "string" and
+            (.version | type) == "string" and
+            (.description | type) == "string" and
+            (.author == null or (.author | type) == "object") and
+            (.author == null or .author.name == null or (.author.name | type) == "string") and
+            (.author == null or .author.email == null or (.author.email | type) == "string") and
+            (.license == null or (.license | type) == "string") and
+            (.homepage == null or (.homepage | type) == "string") and
+            (.repository == null or (.repository | type) == "string")
+          ' .claude-plugin/plugin.json
