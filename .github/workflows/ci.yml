@@ -44,3 +44,14 @@ jobs:
             (.homepage == null or (.homepage | type) == "string") and
             (.repository == null or (.repository | type) == "string")
           ' .claude-plugin/plugin.json
+
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd  # v6.0.2
+        with:
+          persist-credentials: false
+      - uses: j178/prek-action@bdca6f102f98e2b4c7029491a53dfd366469e33d  # v2.0.4
+        with:
+          prek-version: 0.4.1
