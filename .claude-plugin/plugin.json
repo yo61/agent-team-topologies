@@ -1,6 +1,6 @@
 {
   "name": "agent-team-topologies",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Reusable Claude Code agent team topology patterns. Includes the topology selector skill (interactive decision tree across 8 patterns) plus 6 specialist subagents (explorer, architect, implementer, security-reviewer, perf-reviewer, test-reviewer).",
   "author": {
     "name": "Robin Bowes",
