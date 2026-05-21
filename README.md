@@ -16,18 +16,21 @@
 
 ## Quick Start
 
-```bash
-# Clone and copy configs into your project
-git clone https://github.com/eirwin/agent-team-topologies.git
-cp -r agent-team-topologies/.claude/ your-project/.claude/
+Install as a Claude Code plugin from the [yo61-skills marketplace](https://github.com/yo61/claude-skills):
+
+```
+/plugin marketplace add yo61/claude-skills
+/plugin install agent-team-topologies
 ```
 
-You get:
-- **6 agent definitions** — explorer, security reviewer, performance reviewer, test reviewer, architect, implementer
-- **`/topology` skill** — interactive chooser that recommends a topology based on your goal
-- **Hook scripts** — quality gates and idle summary enforcement
+Then invoke the topology chooser with `/agent-team-topologies:topology`.
 
-Or run `/topology` in Claude Code for an interactive chooser.
+You get:
+- **6 subagents** — explorer, security-reviewer, perf-reviewer, test-reviewer, architect, implementer
+- **`topology` skill** — interactive chooser that recommends a topology based on your goal
+- **Hook script templates** — quality gates and idle summary enforcement (see [`.claude/hooks/README.md`](.claude/hooks/README.md))
+
+Prefer a manual install? Clone this repo and copy `agents/`, `skills/`, and `.claude/hooks/` into your project's `.claude/` directory.
 
 ---
 
