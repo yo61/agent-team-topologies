@@ -6,6 +6,12 @@ updates:
       interval: "weekly"
     cooldown:
       default-days: 7
+    # Dependabot's auto-detection of conventional-commits style doesn't
+    # fire reliably on forks, so set the prefix explicitly. Matches the
+    # `commitlint.config.mjs` (config-conventional, type+scope required).
+    commit-message:
+      prefix: "chore"
+      include: "scope"
     groups:
       hooks:
         patterns: ["*"]
