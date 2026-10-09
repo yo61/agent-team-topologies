@@ -53,3 +53,17 @@ topologies/            8 topology pattern cards with spawn prompts and examples
 - Docs in `docs/` are conceptual guides, not pattern cards. Keep them topology-agnostic.
 - Examples must be **real walkthroughs**, not hypothetical templates. Every example should include what actually happened, what went wrong, and concrete metrics (duration, tokens, cost).
 - When adding a new topology, create a directory under `topologies/` and add an entry to `topologies/index.md`.
+
+## Agent skills
+
+### Issue tracker
+
+GitHub Issues on `yo61/agent-team-topologies` via `gh`. See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+Default five-role vocabulary (`needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`). See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+Single-context: root `CONTEXT.md` + `decisions/` (dated records in place of ADRs). See `docs/agents/domain.md`.
