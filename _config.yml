@@ -61,6 +61,7 @@ footer_content: >-
 exclude:
   - README.md
   - CLAUDE.md
+  - CONTEXT.md
   - cards.md
   - topologies.md
   - .claude/
