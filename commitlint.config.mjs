@@ -1,10 +1,10 @@
 export default {
   extends: ['@commitlint/config-conventional'],
   rules: {
-    // `deps` is not a config-conventional type. Dependabot is configured
-    // to use it so release-please can route those commits to a
-    // Dependencies changelog section -- sections are keyed by type, and
-    // the default `chore(deps)` lands under the hidden `chore` type.
+    // `deps` is not a config-conventional type, and neither bot uses it here:
+    // both write `chore`, since nothing they update reaches plugin users. It
+    // stays accepted so the type list matches the other yo61 repos, and an
+    // ecosystem that ships could use it without a commitlint change.
     'type-enum': [
       2,
       'always',
