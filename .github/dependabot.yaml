@@ -1,3 +1,7 @@
+# Dependabot keeps the pre-commit hooks and the workflows' action SHAs; Renovate
+# (renovate.json5) keeps the runner image, the tool versions CI installs and the
+# commitlint hook's config package. Each pin has one owner.
+
 version: 2
 
 # Commit type decides whether an update ships. release-please treats every
@@ -21,3 +25,17 @@ updates:
     groups:
       hooks:
         patterns: ["*"]
+        update-types: ["minor", "patch"]
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    cooldown:
+      default-days: 7
+    commit-message:
+      prefix: "chore(deps)"
+    groups:
+      actions:
+        patterns: ["*"]
+        update-types: ["minor", "patch"]
