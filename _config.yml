@@ -68,6 +68,7 @@ exclude:
   - docs/agents/
   - decisions/
   - knowledge/
+  - research/
   - quality/
   - LICENSE
   - node_modules/
