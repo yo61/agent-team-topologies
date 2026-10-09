@@ -65,6 +65,10 @@ exclude:
   - topologies.md
   - .claude/
   - .github/
+  - docs/agents/
+  - decisions/
+  - knowledge/
+  - quality/
   - LICENSE
   - node_modules/
   - vendor/
