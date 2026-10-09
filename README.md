@@ -4,10 +4,13 @@
 
 > 8 composable topology patterns — a nod to [Team Topologies](https://teamtopologies.com/) thinking, applied to how work flows through agent teams. Browse the patterns, find what fits, and adapt.
 
+> [!NOTE]
+> This is a fork of [EIrwin/agent-team-topologies](https://github.com/EIrwin/agent-team-topologies) ([upstream site](https://eirwin.github.io/agent-team-topologies/)), maintained independently. Report issues and send changes here.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Topologies](https://img.shields.io/badge/Topologies-8-green.svg)](topologies/)
 
-### [View the full documentation site ->](https://eirwin.github.io/agent-team-topologies/)
+### [View the full documentation site ->](https://yo61.github.io/agent-team-topologies/)
 
 > [!WARNING]
 > **Agent teams are experimental.** They're disabled by default in Claude Code. Enable them by setting `CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS` to `1` in your settings or environment. See the [official agent teams documentation](https://docs.anthropic.com/en/docs/claude-code/agent-teams) for setup and known limitations.
@@ -47,21 +50,21 @@ Prefer a manual install? Clone this repo and copy `agents/`, `skills/`, and `.cl
 | [Quality-Gated](topologies/quality-gated/) | Enforcing completion standards (composable) | Overlay |
 | [Task Queue](topologies/task-queue/) | Many small independent tasks | High |
 
-Topologies are primitives, not monoliths — any teammate slot can itself become a topology. See the [Composing Topologies](https://eirwin.github.io/agent-team-topologies/docs/composing-topologies.html) guide for recipes.
+Topologies are primitives, not monoliths — any teammate slot can itself become a topology. See the [Composing Topologies](https://yo61.github.io/agent-team-topologies/docs/composing-topologies.html) guide for recipes.
 
 ---
 
 ## Documentation
 
-All guides are on the [documentation site](https://eirwin.github.io/agent-team-topologies/):
+All guides are on the [documentation site](https://yo61.github.io/agent-team-topologies/):
 
-- [Getting Started](https://eirwin.github.io/agent-team-topologies/docs/getting-started.html) — Enable agent teams, install configs, run your first topology
-- [Mental Model](https://eirwin.github.io/agent-team-topologies/docs/mental-model.html) — Teams vs subagents, core concepts, selection heuristics
-- [Decision Tree](https://eirwin.github.io/agent-team-topologies/docs/decision-tree.html) — Expanded flowchart for picking the right topology
-- [Composing Topologies](https://eirwin.github.io/agent-team-topologies/docs/composing-topologies.html) — Recipes for chaining, nesting, and combining patterns
-- [Anti-Patterns](https://eirwin.github.io/agent-team-topologies/docs/anti-patterns.html) — 8 things NOT to do with agent teams
-- [Cost Guide](https://eirwin.github.io/agent-team-topologies/docs/cost-guide.html) — Token economics by topology, cost reduction strategies
-- [Best Practices](https://eirwin.github.io/agent-team-topologies/docs/best-practices.html) — Operational guidance for running agent teams
+- [Getting Started](https://yo61.github.io/agent-team-topologies/docs/getting-started.html) — Enable agent teams, install configs, run your first topology
+- [Mental Model](https://yo61.github.io/agent-team-topologies/docs/mental-model.html) — Teams vs subagents, core concepts, selection heuristics
+- [Decision Tree](https://yo61.github.io/agent-team-topologies/docs/decision-tree.html) — Expanded flowchart for picking the right topology
+- [Composing Topologies](https://yo61.github.io/agent-team-topologies/docs/composing-topologies.html) — Recipes for chaining, nesting, and combining patterns
+- [Anti-Patterns](https://yo61.github.io/agent-team-topologies/docs/anti-patterns.html) — 8 things NOT to do with agent teams
+- [Cost Guide](https://yo61.github.io/agent-team-topologies/docs/cost-guide.html) — Token economics by topology, cost reduction strategies
+- [Best Practices](https://yo61.github.io/agent-team-topologies/docs/best-practices.html) — Operational guidance for running agent teams
 
 ## Contributing
 
