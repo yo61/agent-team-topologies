@@ -17,6 +17,9 @@ nav_order: 1
 [Official Docs](https://docs.anthropic.com/en/docs/claude-code/agent-teams){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [View on GitHub](https://github.com/yo61/agent-team-topologies){: .btn .fs-5 .mb-4 .mb-md-0 }
 
+{: .note }
+> This is a fork of [EIrwin/agent-team-topologies](https://github.com/EIrwin/agent-team-topologies) ([upstream site](https://eirwin.github.io/agent-team-topologies/)), maintained independently. Report issues and send changes [here](https://github.com/yo61/agent-team-topologies).
+
 ---
 
 ## Pick Your Topology

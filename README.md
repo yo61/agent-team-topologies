@@ -4,6 +4,9 @@
 
 > 8 composable topology patterns — a nod to [Team Topologies](https://teamtopologies.com/) thinking, applied to how work flows through agent teams. Browse the patterns, find what fits, and adapt.
 
+> [!NOTE]
+> This is a fork of [EIrwin/agent-team-topologies](https://github.com/EIrwin/agent-team-topologies) ([upstream site](https://eirwin.github.io/agent-team-topologies/)), maintained independently. Report issues and send changes here.
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Topologies](https://img.shields.io/badge/Topologies-8-green.svg)](topologies/)
 
