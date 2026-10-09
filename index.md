@@ -15,7 +15,7 @@ nav_order: 1
 [Find Your Topology](docs/decision-tree.md){: .btn .btn-primary .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Getting Started](docs/getting-started.md){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
 [Official Docs](https://docs.anthropic.com/en/docs/claude-code/agent-teams){: .btn .fs-5 .mb-4 .mb-md-0 .mr-2 }
-[View on GitHub](https://github.com/eirwin/agent-team-topologies){: .btn .fs-5 .mb-4 .mb-md-0 }
+[View on GitHub](https://github.com/yo61/agent-team-topologies){: .btn .fs-5 .mb-4 .mb-md-0 }
 
 ---
 
