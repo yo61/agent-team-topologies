@@ -2,7 +2,8 @@
 
 Checked before any piece of work in this repository is called done.
 
-Evaluations recorded: 1, to 2026-10-09 (2026-10-09: agent skills setup).
+Evaluations recorded: 2, to 2026-10-09 (2026-10-09: agent skills setup; hard fork onto the
+yo61 Pages site).
 
 ## Category: Published site boundary
 
@@ -16,7 +17,8 @@ Evaluations recorded: 1, to 2026-10-09 (2026-10-09: agent skills setup).
 
 ## Source: 2026-10-09 agent skills setup; `docs/` is the just-the-docs site source.
 
-## Last triggered: 2026-10-09 (`docs/agents/` would have been published)
+## Last triggered: 2026-10-09, twice (`docs/agents/` would have been published; #22 added
+`decisions/` before #21's exclusion of it had merged)
 
 ## Category: Pattern cards and examples
 
