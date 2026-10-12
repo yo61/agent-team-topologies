@@ -1,6 +1,4 @@
 {
-  layout: "dagre",
-  look: "classic",
   theme: "base",
   themeVariables: {
     primaryColor: "#2a2f42",
