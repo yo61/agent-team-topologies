@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/yo61/agent-team-topologies/compare/v1.1.0...v1.1.1) (2026-10-17)
+
+
+### Bug Fixes
+
+* **docs:** use mermaid 12 default layout and look ([#42](https://github.com/yo61/agent-team-topologies/issues/42)) ([1108269](https://github.com/yo61/agent-team-topologies/commit/11082695f06d7d1e7c7abab8e38862445f601d8f))
+
 ## [1.1.0](https://github.com/yo61/agent-team-topologies/compare/v1.0.0...v1.1.0) (2026-05-21)
 
 
